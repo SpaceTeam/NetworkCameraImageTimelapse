@@ -26,9 +26,9 @@ def main():
     while True:
         try:
             save_image("http://10.32.7.31/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera0")
-            save_image("http://10.32.7.31/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera1")
-            save_image("http://10.32.7.31/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera2")
-            save_image("http://10.32.7.31/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera3")
+            save_image("http://10.32.7.32/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera1")
+            save_image("http://10.32.7.33/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera2")
+            save_image("http://10.32.7.34/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=", "Kamera3")
         except Exception as e:
             print(f":feuer: Got Exception {e}")
         time.sleep(2)
